@@ -16,7 +16,7 @@ public class Main {
         Calendar gc = GregorianCalendar.getInstance();
         gc.set(GregorianCalendar.MONTH, i);
         System.out.println(i);
-        System.out.println( GregorianCalendar.MONTH);
+        System.out.println( gc.get(GregorianCalendar.MONTH));
         
 
 
